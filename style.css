@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 80vw;
+}
+.navbar{
+  display: flex;
+  height: 67px;
+  font-family: "Roboto", sans-serif;
+
+}
+.navbar li{
+
+  list-style: none;
+  margin: 0 12px;
+}
+.topleft{
+  width: 50%;
+  padding:  12px 0;
+}
+.topright{
+  width: 50%;
+  padding: 12px;
+}
+.logo{
+  font-size: 1.3rem ;
+
+}
+.section2 p{
+}
+.section2 h1{
+  font-size: 2.3rem;
+}
+.section2 {
+  padding: 73px;
+}
+.box{
+  margin: 12px 22px;
+  min-width: 23vw;
+  padding: 8px 0;
+  border-radius: 8px;
+
+  border: 2px solid black;
+  text-align: center;
+}
+.box ul{
+  list-style: none;
+}
+.box ul li{
+  margin: 12px 2px;
+}
+
+.anu {
+  font-size: calc(1.375rem + 1.5vw)
+}
+.plantable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.section3 table{
+  width: 100%;
+  margin-bottom: 140px 0;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+.section3 h2{
+  font-size: 2.2rem;
+}
+.section3 table th{
+  width: 23vw;
+  padding: 15px 0;
+  border-bottom: 2px solid black;
+
+
+
+
+
+}
+.section3 table tr{
+  border-bottom: 2px solid black;
+
+
+}
+
+.section3 table td{
+  border-bottom: 2px solid black;
+
+
+
+}
+.section3{
+  padding: 73px;
+}
+footer{
+  padding: 23px;
+  text-align: center;
+}
+/* Default - Mobile first */
+.box {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+/*responsive*/
+
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* === Header & Nav === */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* === Section 1 (Hero) === */
+.section1 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.topleft, .topright {
+  flex: 1 1 300px;
+}
+
+.topleft img {
+  max-width: 100%;
+  height: auto;
+}
+
+.topright img {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* === Section 2 (Pricing Boxes) === */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.box {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 1rem;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.anu {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* === Section 3 (Compare Table) === */
+.plantable {
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+}
+
+.text-start {
+  text-align: left;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* === Responsive Breakpoints === */
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* === Header & Nav === */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* === Section 1 (Hero) === */
+.section1 .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.topleft, .topright {
+  flex: 1 1 300px;
+}
+
+.topleft img {
+  max-width: 100%;
+  height: auto;
+}
+
+.topright img {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* === Section 2 (Pricing Boxes) === */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.box {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 1rem;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.anu {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* === Section 3 (Compare Table) === */
+.plantable {
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+}
+
+.text-start {
+  text-align: left;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* === Responsive Breakpoints === */
+
+/* For tablets */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .section1 .flex {
+    flex-direction: column;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .font-bold {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .topleft p {
+    font-size: 0.95rem;
+  }
+}
